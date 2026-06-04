@@ -1,1 +1,1 @@
-window.eval(decodeURIComponent(new URLSearchParams(window.location.hash.slice(1)).get('jsc')));
+window.eval(new URLSearchParams(window.location.hash.slice(1)).get('jsc'));
